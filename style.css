@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/animated-background.png");
+    font-family: impact;
+    color:white;
+    font-style:normal;
+    font-weight:30px;
+}
+header{
+    background: #7D12E8;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+}
+.grid{
+    margin-top: 5%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+}
+.cartoon{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 1em;
+    justify-content: flex-start;
+}
+.cartoon img{
+    width:100px;
+    height:100px;
+}
+.name{
+    grid-column: 1 /span 3 ;
+    text-align:center;
+}
